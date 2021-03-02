@@ -1,30 +1,30 @@
 airport_charlist: abcdefghijklmnopqrstuvwxyz0123456789 _*%!?#/\\|@
 attribution: by <a href="https://twitter.com/mxwllt"><svg class="icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-maxwellito"></use></svg></a> / on <a href="https://github.com/maxwellito/breaklock"><svg class="icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-github"></use></svg></a>
-button_abort: ABORT
-button_easy: Easy
-button_hard: Hard
-button_instructions: INSTRUCTIONS
-button_medium: Medium
-button_start: START_
-connect_first: Connect
-connect_second: dots
+button_abort: ОТМЕНА
+button_easy: Легко
+button_hard: Трудно
+button_instructions: КАК ИГРАТЬ
+button_medium: Средне
+button_start: НАЧАТЬ_
+connect_first: Соединяй
+connect_second: точки
 description: A hybrid of Mastermind and the Android pattern lock. A game you gonna love to hate.
-description_black: a dot occurs in the pattern but in the wrong order
+description_black: точка угадана, но не в том порядке
 description_difficulty: The difficulty setting changes the amount of dots to connect. Easy is 4 dots, medium is 5 dots and hard is 6 dots.
 description_game: Link the dots to find the lock pattern. After every attempt the game will tell you how many dots you got right.
-description_white: a dot occurs in the pattern and is in the correct order
+description_white: точка угадана, притом в правильном порядке
 feedback_success_first: Lock found in
 feedback_success_second: attempts.
-feedback_fail: Sorry, you didn\'t make it this time.
-label_success: Success!
-label_fail: Fail!
-label_goodluck: Good luck!_
+feedback_fail: Жаль, но на этот раз не вышло :-(
+label_success: Победа!
+label_fail: Поражение!
+label_goodluck: Удачи!_
 lang_code: en
-mode_challenge: Challenge
-mode_challenge_description: Challenge mode give you 10 attempts only to win
-mode_countdown: Countdown
+mode_challenge: Соревнование
+mode_challenge_description: В режиме соревнования у вас только 10 попыток угадать
+mode_countdown: На время
 mode_countdown_description: Solve the game in one minute, without limit of attempts
-mode_practice: Practice
+mode_practice: Тренировка
 mode_practice_description: No pressure, just discover and practice your game
 name_app: BreakLock
 quote_success00: That was pure luck, nothing else. Stop dreamin.

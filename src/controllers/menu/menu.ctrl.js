@@ -36,7 +36,7 @@ class MenuCtrl {
       intro = dom.create(
         'p',
         'menu-intro',
-        '#@description'
+        // '#@description'
       );
     this.title = title;
     this.typeHelpEl = dom.create('p', {}, 'Future info about the challenge');
@@ -99,9 +99,9 @@ class MenuCtrl {
         instructions.el
       ]),
       dom.create('div', 'view-bloc menu-layout-form', [
-        this.difficultyOption.el,
-        this.typeSelector.el,
-        this.typeHelpEl,
+        // this.difficultyOption.el,
+        // this.typeSelector.el,
+        // this.typeHelpEl,
         this.btnStarlEl
       ])
     ]);

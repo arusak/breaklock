@@ -40,6 +40,7 @@ const build = async () => {
     cp(join(rootFolder, 'manifest.json'), join(buildFolder, 'manifest.json')),
     cp(join(rootFolder, 'service-worker.js'), join(buildFolder, 'service-worker.js')),
     cp(join(rootFolder, 'assets'), join(buildFolder, 'assets')),
+    cp(join(rootFolder, 'CNAME'), join(buildFolder, 'CNAME')),
   ]);
   console.log('Localizing...');
   const l10n = await getL10nData();
