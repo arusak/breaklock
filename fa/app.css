@@ -24,7 +24,8 @@
 .status-bar {
   height: 1.5rem;
   padding-bottom: .25rem;
-  border-bottom: 1px dotted #ffffff; }
+  display: flex;
+  justify-content: space-between; }
   .status-bar:after {
     content: '';
     clear: both; }
@@ -34,8 +35,6 @@
     .status-bar-cancel:before {
       content: '\AB';
       margin-right: .25em; }
-  .status-bar-info {
-    float: inline-end; }
 
 .history {
   height: 7rem;
@@ -310,6 +309,7 @@
   -webkit-flex: 1 0 auto; }
 
 .menu-layout-form {
+  display: none;
   max-width: 480px; }
 
 .introduction-demo {
@@ -319,8 +319,8 @@
   margin: 1rem auto; }
 
 .lang-button {
+  display: none;
   float: inline-end;
-  display: block;
   width: 40px;
   border-radius: 0.4rem;
   border: 1px solid currentColor; }
@@ -520,4 +520,25 @@ table {
     opacity: 0; }
   100% {
     opacity: 0; } }
+
+#reveal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-size: 80px;
+  background: black;
+  color: white;
+  opacity: 0;
+  pointer-events: none; }
+  #reveal.shown {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    pointer-events: all;
+    opacity: 1;
+    transition: opacity 2s ease-in; }
 
