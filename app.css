@@ -542,3 +542,6 @@ table {
     opacity: 1;
     transition: opacity 2s ease-in; }
 
+.hidden {
+  display: none; }
+
